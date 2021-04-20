@@ -16,11 +16,6 @@ type
     WedgewoodLightSB: TStyleBook;
     TabControl1: TTabControl;
     TabItem1: TTabItem;
-    Rectangle1: TRectangle;
-    Image1: TImage;
-    Image2: TImage;
-    Label10: TLabel;
-    Label11: TLabel;
     Label1: TLabel;
     Button1: TButton;
     Button2: TButton;
@@ -35,6 +30,11 @@ type
     RESTRequest1: TRESTRequest;
     edtPAT: TEdit;
     Layout3D1: TLayout3D;
+    Rectangle1: TRectangle;
+    Image1: TImage;
+    Image2: TImage;
+    Label10: TLabel;
+    Label11: TLabel;
     procedure edtPATKeyDown(Sender: TObject; var Key: Word; var KeyChar: Char;
       Shift: TShiftState);
     procedure DoTrashButtonClick(Sender: TObject);
